@@ -13,3 +13,5 @@ libraryDependencies += "org.json" % "json" % "20180813"
 
 // https://mvnrepository.com/artifact/org.apache.clerezza.ext/org.json.simple
 libraryDependencies += "org.apache.clerezza.ext" % "org.json.simple" % "0.4"
+
+libraryDependencies += "org.xerial" % "sqlite-jdbc" % "3.7.2"
