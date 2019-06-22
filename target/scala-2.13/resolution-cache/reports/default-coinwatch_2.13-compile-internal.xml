@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="coinwatch_2.13"
+		revision="0.1"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190622145512"/>
+	<dependencies>
+		<module organisation="org.apache.clerezza.ext" name="org.json.simple">
+			<revision name="0.4" status="release" pubdate="20140701090120" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2240" time="226" location="/home/nathan/.ivy2/cache/org.apache.clerezza.ext/org.json.simple/ivy-0.4.xml" searched="true" original-local-location="/home/nathan/.ivy2/cache/org.apache.clerezza.ext/org.json.simple/ivy-0.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/clerezza/ext/org.json.simple/0.4/org.json.simple-0.4.pom"/>
+				<caller organisation="default" name="coinwatch_2.13" conf="compile-internal, compile, provided, optional" rev="0.4" rev-constraint-default="0.4" rev-constraint-dynamic="0.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="org.json.simple" type="bundle" ext="jar" status="successful" details="" size="23361" time="229" location="/home/nathan/.ivy2/cache/org.apache.clerezza.ext/org.json.simple/bundles/org.json.simple-0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/clerezza/ext/org.json.simple/0.4/org.json.simple-0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.json-simple" name="json-simple">
+			<revision name="1.1" status="release" pubdate="20090812110513" resolver="public" artresolver="public" homepage="http://code.google.com/p/json-simple/" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1085" time="123" location="/home/nathan/.ivy2/cache/com.googlecode.json-simple/json-simple/ivy-1.1.xml" searched="true" original-local-location="/home/nathan/.ivy2/cache/com.googlecode.json-simple/json-simple/ivy-1.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom"/>
+				<caller organisation="org.apache.clerezza.ext" name="org.json.simple" conf="default, compile, runtime, master" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="0.4"/>
+				<artifacts>
+					<artifact name="json-simple" type="jar" ext="jar" status="successful" details="" size="16046" time="249" location="/home/nathan/.ivy2/cache/com.googlecode.json-simple/json-simple/jars/json-simple-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.json" name="json">
+			<revision name="20180813" status="release" pubdate="20180814034514" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/douglascrockford/JSON-java" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="The JSON License" url="http://json.org/license.html"/>
+				<metadata-artifact status="no" details="" size="4210" time="0" location="/home/nathan/.ivy2/cache/org.json/json/ivy-20180813.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/json/json/20180813/json-20180813.pom"/>
+				<caller organisation="default" name="coinwatch_2.13" conf="compile-internal, compile, provided, optional" rev="20180813" rev-constraint-default="20180813" rev-constraint-dynamic="20180813" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="json" type="bundle" ext="jar" status="no" details="" size="64597" time="0" location="/home/nathan/.ivy2/cache/org.json/json/bundles/json-20180813.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/json/json/20180813/json-20180813.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.5" status="release" pubdate="20160422095236" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-io/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11588" time="0" location="/home/nathan/.ivy2/cache/commons-io/commons-io/ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom"/>
+				<caller organisation="default" name="coinwatch_2.13" conf="compile-internal, compile, provided, optional" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="208700" time="0" location="/home/nathan/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.13.0" status="release" pubdate="20190607060246" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.13.0/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2659" time="0" location="/home/nathan/.ivy2/cache/org.scala-lang/scala-library/ivy-2.13.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.pom"/>
+				<caller organisation="default" name="coinwatch_2.13" conf="compile-internal, compile, provided, optional" rev="2.13.0" rev-constraint-default="2.13.0" rev-constraint-dynamic="2.13.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5693401" time="0" location="/home/nathan/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.13.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.0/scala-library-2.13.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
