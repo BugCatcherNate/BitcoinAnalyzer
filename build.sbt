@@ -1,4 +1,4 @@
-name := "CoinWatch"
+name := "BitcoinAnalyzer"
 
 version := "0.1"
 
